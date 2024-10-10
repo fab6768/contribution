@@ -19,7 +19,7 @@ Public Contribution if it helps
 ### Install Git Portable:
 
 ```cmd
-   asd
+   mkdir C:\Adminsys\apps
 ```
 
 </details>
