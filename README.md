@@ -19,7 +19,9 @@ Public Contribution if it helps
 ### Install Git Portable:
 
 ```cmd
-   mkdir C:\Adminsys\apps
+   mkdir C:\Adminsys
+   cd C:\Adminsys
+   git clone AAA
 ```
 
 </details>
