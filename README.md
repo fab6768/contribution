@@ -1,5 +1,5 @@
 # contribution
-Public Contribution if it helps
+My public Contribution if it helps... :)
 
 
 # Links
@@ -25,5 +25,51 @@ Public Contribution if it helps
 ```
 
 </details>
+
+--------------------
+
+# Git_CMDs
+
+<details>
+
+<summary>GIT</summary>
+
+### Git Configuration:
+```
+git config --global user.name "$Name $Surname"
+git config --global $mail
+```
+
+### Git_Commands:
+```
+branch_main="main"
+branch_name=""
+branch_comment=""
+
+git checkout $branch_main
+git checkout -b "$branch_name"
+git status
+
+## New Files / do Stuff....
+git add $file1
+git add *
+
+git commit -m "$branch_comment"
+git push --set-upstream origin "$branch_name"
+git checkout $branch_main
+
+## Clean Local
+a_repos=`(git branch -l | egrep -v "$branch_main")`
+git checkout $branch_main; for repo in $a_repos; do git branch -d "$repo"; done
+
+```
+### Git Fix:
+```
+git config --global --add safe.directory $path
+```
+
+</details>
+
+--------------------
 
 
