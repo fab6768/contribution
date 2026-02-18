@@ -1,1 +1,8 @@
+%APPDATA%\Code\User
 C:\Users\<user>\AppData\Roaming\Code\User
+
+## ---- keybindings.json
+%APPDATA%\Code\User\keybindings.json
+
+## ---- settings.json
+%APPDATA%\Code\User\settings.json
